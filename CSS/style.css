@@ -1,0 +1,91 @@
+@font-face {
+font-family: 'Ubuntu';
+src : url ('Fonts/ubuntu-font-family-0.80/Ubuntu-B.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-BI.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-C.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-L.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-LI.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-M.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-MI.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/UbuntuMono-B.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/UbuntuMono-BI.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/UbuntuMono-R.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/UbuntuMono-RI.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-R.ttf') format (truetype),
+	url ('Fonts/ubuntu-font-family-0.80/Ubuntu-RI.ttf') format (truetype);
+font-weight: normal;
+font-style: normal;
+}
+
+body
+{
+font-family: 'Ubuntu', Calibri,serif;
+}
+
+header
+{
+background: url("Images/separateur.png") repeat-x bottom;
+}
+
+nav
+{
+background-color: rgb(221,72,20);
+color: white;
+display: inline-block;
+text-align: right;
+}
+
+nav ul
+{
+list-style-type: none;
+}
+
+nav li
+{
+display: inline-block;
+margin-right: 15 px;
+}
+
+
+
+section
+{
+margin-left:20px;
+width: 30 px;
+height: 200 px;
+text-align : justify;
+}
+
+section h3
+{
+font-size:1.4em;
+}
+
+footer
+{
+background: url("Images/separateur.png") repeat-x top;
+background-color: rgb(210,210,210);
+
+}
+
+footer a:hover
+{
+color: rgb(221,72,20);
+}
+
+.origin
+{
+font-weight: bold;
+}
+
+.error
+{
+background-color: rgb(221,72,20);
+color: white;
+}
+
+
+#link
+{
+color : black;
+}
